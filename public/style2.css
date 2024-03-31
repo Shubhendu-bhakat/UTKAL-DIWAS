@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(84, 70, 52);
+  background-image: url(/backimg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  padding: 10px;
+  margin: 5px;
+}
+.card:hover {
+  box-shadow: 15px 15px 5px black;
+  transition: 0.5s linear;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: black;
+  -webkit-text-stroke: 1px #265f98;
+  padding: 0.5rem;
+}
+.navbar{
+  color: #fff;
+
+}
+.bnav{
+  color: #fff;
+}
+.bnav:hover{
+  color: beige;
+}
+.text{
+  display: flex;
+  justify-content: space-evenly;
+}
+.texthis{
+  background-color: azure;
+  color: black;
+}
